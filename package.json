@@ -1,0 +1,23 @@
+{
+  "name": "news-letter-app",
+  "version": "1.0.0",
+  "description": "Newsletter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFluzr/news-letter-app.git"
+  },
+  "author": "Jakub Jaszcz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xFluzr/news-letter-app/issues"
+  },
+  "homepage": "https://github.com/xFluzr/news-letter-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
