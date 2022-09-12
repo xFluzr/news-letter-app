@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  align-items: center;
+  background-color: #EAEAEA;
+  color:#252A34;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+/*Form styling*/
+.submit-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  padding: 2rem;
+}
+.form-header{
+  margin: 1rem 0rem;
+}
+
+.btn,.input-styled{
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+/*Header and logo*/
+.form-header{
+  font-size: 2.5rem;
+}
+.logo-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+/*Input styling*/
+.input-styled{
+  font-family: 'Ubuntu', sans-serif;
+  color: #252A34;
+  margin-bottom: 1px;
+}
+.checkbox-styling{
+  margin: 0.5rem 0rem;
+}
+/* Button styling */
+.btn{
+  background-color: #08D9D6;
+  border: 0;
+  border-radius: 5px;
+  color:#252A34;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  height: 70px;
+  opacity: 0.8;
+  margin: 0.5rem 0rem;
+  transition:all 1s ease;
+}
+.btn:hover{
+  background-color: #33fffc;
+  opacity: 0.9;
+  
+}
