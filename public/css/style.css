@@ -32,7 +32,6 @@ body{
   font-size: 2rem;
   padding: 0.5rem 1rem;
   width: 100%;
-  cursor: pointer;
 }
 /*Header and logo*/
 .form-header{
@@ -50,8 +49,8 @@ body{
   color: #252A34;
   margin-bottom: 1px;
 }
-.checkbox-styling{
-  margin: 0.5rem 0rem;
+.input-styled:focus{
+  border: 0.25px solid #252A34;
 }
 /* Button styling */
 .btn{
@@ -59,6 +58,7 @@ body{
   border: 0;
   border-radius: 5px;
   color:#252A34;
+  cursor: pointer;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   height: 70px;

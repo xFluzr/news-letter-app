@@ -8,27 +8,28 @@
   </head>
 
   <body>
-    <form class="submit-form" action="/" method="post">
+    <form class="submit-form" action="/" method="POST">
       <img class="logo-img" src="/images/logo.svg" alt="logo" />
       <h1 class="form-header">Sign up to newsletter!</h1>
       <input
         class="input-styled"
         type="text"
-        name="name"
+        name="fname"
         placeholder="Enter your name"
       />
       <input
         class="input-styled"
-        type="mail"
+        type="text"
+        name="lname"
+        placeholder="Enter your lastname"
+      />
+      <input
+        class="input-styled"
+        type="email"
         name="mail"
         placeholder="Enter your mail"
       />
-      <div class="checkbox-styling">
-        <input type="checkbox" placeholder="Remember me" name="rememberMe" />
-        <label for="rememberMe">Remember me</label>
-      </div>
-
-      <button class="btn" type="submit">Sign In</button>
+      <button class="btn" type="submit">Sign Up</button>
       <p class="copyright-text">&copy;2022</p>
     </form>
   </body>
