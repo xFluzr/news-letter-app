@@ -36,22 +36,27 @@ app.post("/",(req,res)=>{
 
     const request=https.request(url,options,(response)=>{
         if(response.statusCode===200){
-            res.send("Succesfully subscribed")
+            res.sendFile(__dirname+"/succes.html");
         }
         else{
-            res.send("Ups something went wrong")
+            res.sendFile(__dirname+"/failure.html");
         }
         response.on("data",(data)=>{
             console.log(JSON.parse(data));
         });
     });
-    request.write(jsonData)
+    request.write(jsonData);
     request.end();
 });
 
-app.listen(3000,()=>{
-    console.log("Server running on port 3000")
+
+app.post("/failure",(req,res)=>{
+    res.redirect("/");
 })
+
+app.listen(process.env.PORT || 3000,()=>{
+    console.log("Server running");
+});
 
 //API Key
 //7f017c38845f297e2fc6f1fe427e21a0-us12

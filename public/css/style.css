@@ -71,3 +71,9 @@ body{
   opacity: 0.9;
   
 }
+
+/*Failure and succes images*/
+img{
+  width: 200px;
+  height: 200px;
+}
